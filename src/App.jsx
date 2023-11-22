@@ -24,8 +24,8 @@ function App() {
       })
       .catch(e => {
         MySwal.fire({
-          title: <ModalTitle />,
-          html: <ModalContent />,
+          title: "Teste",
+          html: <p>Teste</p>,
           icon: "error",
           confirmButtonText: "😢 okay..."
         })
